@@ -49,7 +49,7 @@ void wel_come() {
         Sleep(1);
     }
     printf("\n");
-	printf("Jangia Groceries\n");
+	printf("Bhotvoti Groceries\n");
 	for(i=0; i<18; i++)
     {
         printf(".");
@@ -79,7 +79,7 @@ void wel_come() {
 
 int optional() {
      int choice;
-    printf("****** Welcome to Jangia Groceries System ******\n");
+    printf("****** Welcome to Bhotvoti Groceries System ******\n");
     while (1) {
         printf("\nChoose an option:");
         printf("\n[1] Register");
@@ -341,7 +341,7 @@ void menu()
     system("cls");
     printf("\nUser: %s\nEmail: %s\nPhone: %s\n", mainUser.fullName, mainUser.email, mainUser.phoneNumber);
     printf("\n\n");
-	printf("****** Welcome to Jangia Groceries System ******\n");
+	printf("****** Welcome to Bhotvoti Groceries System ******\n");
 	printf("                                                                                          ");
 	printf("                                                                                          ");
 	printf("\n\t\tEnter [1] ....|_____|....\n");
