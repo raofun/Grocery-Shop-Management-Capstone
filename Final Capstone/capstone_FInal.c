@@ -13,7 +13,7 @@ typedef struct {
     char fullName[100];
     char email[100];
     char phoneNumber[15];
-    char password[30];
+    char password[50];
 } User;
 
 User mainUser;
@@ -200,7 +200,7 @@ void takePassword(char *password) {
 					printf("\b \b"); 
 				}
 			} 
-			else if (i < 255 && isprint(ch)) { 
+			else if (i < 50 && isprint(ch)) { 
 				password[i++] = ch;
 				printf("*"); 
 			}
@@ -290,7 +290,7 @@ void registerUser() {
 
 int loginUser() {
     char email[100];
-    char password[30];
+    char password[50];
     char filename[120];
 	int attmpt=0;
 
