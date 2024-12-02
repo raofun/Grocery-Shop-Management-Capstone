@@ -563,7 +563,6 @@ void searchProducts(){
     menu();
 }
 
-s
 void displayProducts() {
     
         system("cls"); 
