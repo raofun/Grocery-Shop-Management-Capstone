@@ -11,7 +11,7 @@ typedef struct {
     char fullName[100];
     char email[100];
     char phoneNumber[15];
-    char password[30];
+    char password[100];
 } User;
 User mainUser;
 
@@ -222,7 +222,7 @@ void takePassword(char *password) {
 					printf("\b \b"); 
 				}
 			} 
-			else if (i < 255 && isprint(ch)) { 
+			else if (i < 100 && isprint(ch)) { 
 				password[i++] = ch;
 				printf("*"); 
 			}
